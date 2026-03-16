@@ -1,10 +1,10 @@
-### Assignment_SPW
+# Branch merge,rebase & switch
 This is the project for SPW lecture
 
 ## branch switch
 Git 2.23 brings a new commands: git switch and git restore. These two are meant to eventually provide a better interface for the well-known git checkout. The new 
 operations are divided into 2 categories: commands which change branches and operations which change files. To that end, git switch takes care of the former, and git restore the latter. 
-# Simple Example
+### Simple Example
 The simplest invocation of git switch looks like this:
 
 $ git switch my-feature
@@ -26,7 +26,7 @@ $ git switch -c my-new-feature 0810beaed7
 Switched to a new branch 'my-new-feature'
 There are a handful of other examples in the documentation, including both more of the above as well as some examples about how to set up tracking branches, orphaned branches, and more.
 
-# Useful commands:
+### Useful commands:
 git-switch - Switch branches
 
 SYNOPSIS
