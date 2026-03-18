@@ -7,8 +7,9 @@ the main line. It represents an independent line of development. Unlike older ve
 you create a branch. Instead, it simply remembers which commit you are currently working on. This makes branching in Git  fast and "cheap" in
 terms of storage. 
 
-<img align="center" width="300" height="300" src="branch1_new.png">
-
+<p align="center" width="100%">
+    <img width="33%" src="branch1_new.png"> 
+</p>
 
 - The HEAD Pointer: Git uses a special pointer called HEAD to track the current branch you are working on. When switch branches, HEAD moves
 to the new branch pointer.
