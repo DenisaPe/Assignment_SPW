@@ -24,6 +24,11 @@ The primary goal of branching is isolation. It allows for:
 - Risk Management: If a feature or an experiment fails, the branch can be deleted without any impact on the rest of the project.
 
 ## The "Feature Branch" Workflow
+
+<p align="center" width="100%">
+    <img width="33%" src="branch2_new.png"> 
+</p>
+
 This is the industry-standard strategy for working in teams:
 
 - Task-Oriented: A dedicated branch is created for every new task (e.g., a new feature, a bug fix, or a UI update).
