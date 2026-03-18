@@ -8,7 +8,7 @@ you create a branch. Instead, it simply remembers which commit you are currently
 terms of storage. 
 
 <p align="center" width="100%">
-    <img width="100%" src="branch1_new.png"> 
+    <img width="70%" src="branch1_new.png"> 
 </p>
 
 - The HEAD Pointer: Git uses a special pointer called HEAD to track the current branch you are working on. When switch branches, HEAD moves
@@ -26,7 +26,7 @@ The primary goal of branching is isolation. It allows for:
 ## The "Feature Branch" Workflow
 
 <p align="center" width="100%">
-    <img width="100%" src="branch2_new.png"> 
+    <img width="70%" src="branch2_new.png"> 
 </p>
 
 This is the industry-standard strategy for working in teams:
