@@ -5,8 +5,8 @@ Source: [basic-git-branching](https://git-scm.com/book/en/v2/Git-Branching-Basic
 * In Git, a branch is a **lightweight, movable pointer to a commit**. When you create a branch, you create a new pointer. The default branch name in Git is master (or main on Github). As you start making commits, you're given a main branch that points to the last commit you made. Every time you commit, the main branch pointer moves forward automatically.
 * Instead of copying all files, Git simply tracks where your work diverges from the main line. It represents an independent line of development. Unlike older version control systems, Git does not copy all your files when you create a branch. Instead, it simply remembers which commit you are currently working on. This makes branching in Git  fast and "cheap" in terms of storage. 
 
-<p align="center" width="50%">
-    <img width="50%" src="branch1_new.png"> 
+<p align="center" width="70%">
+    <img width="30%" src="branch1_new.png"> 
 </p>
 
 The HEAD Pointer: Git uses a special pointer called HEAD to track the current branch you are working on. When switch branches, HEAD moves
@@ -64,7 +64,7 @@ The first thing to understand about **`git rebase`** is that it solves the same 
   
 * Git merge presents all **conflicts at once in a single resolution session**. Git identifies every conflicting file and marks all problematic sections at the same time, which allows you to see the complete scope of integration challenges upfront. However, complex merges with many conflicts can become overwhelming. You might find yourself resolving dozens of conflicting files in a single session, making it easy to miss subtle integration issues or introduce new bugs during the resolution process.
 
-<p align="center" width="100%">
+<p align="center" width="70%">
     <img width="50%" src="merge1_new.png"> 
 </p>
 
@@ -72,7 +72,7 @@ The first thing to understand about **`git rebase`** is that it solves the same 
 Visualize merge in git
 
 <p align="left" width="70%">
-    <img width="50%" src="merge2_new.png"> 
+    <img width="50%" src="merge2.png"> 
 </p>
 
 <p align="left" width="70%">
