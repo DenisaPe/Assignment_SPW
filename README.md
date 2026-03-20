@@ -117,7 +117,7 @@ pick 0988efbe third commit - add feature1
 </p>
 
 ## git switch
-Git 2.23 brings few new commands: `**git switch`** and `**git restore`**. These two are meant to eventually provide a better user experience for the `**git checkout`** functionality. The new operations are dividing checkout into 2 subcommand types: commands which change branches and operations which change files. So that makes switch easier to understand and use.
+Git 2.23 brings few new commands: `git switch`** and `git restore`**. These two are meant to eventually provide a better user experience for the `git checkout`** functionality. The new operations are dividing checkout into 2 subcommand types: commands which change branches and operations which change files. So that makes switch easier to understand and use.
 
 ### Go through example:
 We have 2 branches in the repo: main & branch1
